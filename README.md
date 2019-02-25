@@ -1,4 +1,4 @@
-# inclusitivity
+# Inclusitivity Assignment
 coding assignment of Poker Cards
 
 
