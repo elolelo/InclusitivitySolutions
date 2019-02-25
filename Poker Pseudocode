@@ -1,0 +1,17 @@
+This program will accept text input of playing cards for evaluating what the best poker hand could be constructed with the cards.
+
+Get the necessary library for pokergames
+Get  input from user  
+Account for the validity of the  text input 
+Store the text input
+Create ranking categories 
+Define methods for the rankings
+  Searching method  -to compare in which ranking category
+    Loop through the inputted text and check conditions
+      Condition: if a value of an element in the text-inputted contained in a any of the values in the order rank 
+          place it in some temporary array
+  Sorting method    - to compare in which  category does the temparary array fall under
+    Loop through every element in the inputted text and compare it with each ranking category
+      condition: if these 2 arrays are the same 
+      then return the name of the category 
+  
