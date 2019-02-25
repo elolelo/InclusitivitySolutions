@@ -1,6 +1,6 @@
 This program will accept text input of playing cards for evaluating what the best poker hand could be constructed with the cards.
 
-Get the necessary library for pokergames
+Get the necessary  Java library  imports
 Get  input from user  
 Account for the validity of the  text input 
 Store the text input
