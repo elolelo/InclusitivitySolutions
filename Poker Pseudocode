@@ -3,11 +3,14 @@ This program will accept text input of playing cards for evaluating what the bes
 Get the necessary  Java library  imports
 Get  input from user  
 Account for the validity of the  text input  
-    use the try catch statements
+    use the try catch statement
+        have suits and numericals checked from the user string input
+                By creating arrays for suits and for numbericals (numericals of string data type)
 Store the text input 
     have a variable storing the text as either string or array for comparisons
 Create ranking categories 
-    Have 9  arrays with looping conditional requirements for each rank specification
+    Have 9  arrays with looping conditional requirements for each rank specification 
+        populate each array with suit conditions and numbers conditions
 Define methods for the rankings
   Have about 9+ methods each comparing which rank does the inputted string belong to
   Searching method  -to compare in which ranking category - use the method
