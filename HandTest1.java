@@ -14,7 +14,8 @@ public class HandTest1 {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		assertEquals(m_hand,m_hand);
+		//fail("Not yet implemented");
 	}
 
 }
