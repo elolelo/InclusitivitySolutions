@@ -9,7 +9,7 @@ public class Hand {
 	    	int length_hand = hand_container.length();
 	    	
 	    	
-	    	if (hand_container.length() != 5) {
+	    	if (hand_container.length() < 5) {
 	    		System.out.println("You must have 5 card");
 	    		System.exit(0);
 	    	
