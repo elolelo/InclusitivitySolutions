@@ -3,15 +3,17 @@ This program will accept text input of playing cards for evaluating what the bes
 Get the necessary  Java library  imports
 Get  input from user  
 Account for the validity of the  text input  
-    use the try catch statement
+    use the try catch statement// or used the exception class or assert statements
         have suits and numericals checked from the user string input
-                By creating arrays for suits and for numbericals (numericals of string data type)
+                By creating arrays for suits and for numbericals (numericals of string data type) -- 
+                            the suits array of type char and the numericals named rank of type string
 Store the text input 
-    have a variable storing the text as either string or array for comparisons
+?? find a way to split this string such that values for the suit and values 
+    have a variable storing the text as either string or array or arrayList for comparisons
 Create ranking categories 
     Have 9  arrays with looping conditional requirements for each rank specification 
         populate each array with suit conditions and numbers conditions
-Define methods for the rankings
+Define methods for the rankings // try with Enums
   Have about 9+ methods each comparing which rank does the inputted string belong to
   Searching method  -to compare in which ranking category - use the method
     Loop through the inputted text and check conditions  - If the values are meet for a specific rank definition
@@ -20,6 +22,7 @@ Define methods for the rankings
           place it in some temporary array
   Sorting method    - to compare in which  category does the temparary array fall under
     Loop through every element in the inputted text and compare it with each ranking category
+        Use the Java 8 comparator.comparing()  
       condition: if these 2 arrays are the same 
       then return the name of the category 
   
